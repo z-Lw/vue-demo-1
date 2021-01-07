@@ -29,14 +29,7 @@
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
-  "rules": {
-	"generator-star-spacing": "off",
-	"no-tabs":"off",
-	"no-unused-vars":"off",
-	"no-console":"off",
-	"no-irregular-whitespace":"off",
-	"no-debugger": "off"
-},
+
   "lint-staged": {
     "*.{js,jsx,vue}": [
       "vue-cli-service lint",
